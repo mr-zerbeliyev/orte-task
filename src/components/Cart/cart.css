@@ -21,6 +21,8 @@
 
 .cart_buttons button {
     border-radius: 5px;
+    color: white !important;
+    background-color: black !important;
 }
 
 .cart_buttons button:hover {
