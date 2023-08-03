@@ -1,8 +1,10 @@
 import React from "react";
+import "./cart.css";
+
 
 const Cart = ({ cartItems, getTotalPrice, setDiscountApplied, checkout }) => {
   return (
-    <div className="border">
+    <div className=" cart">
       <h2>Cart</h2>
       {cartItems?.map((cartItem) => (
         <div className="border mx-auto" style={{ width: 200 }}>
@@ -11,7 +13,7 @@ const Cart = ({ cartItems, getTotalPrice, setDiscountApplied, checkout }) => {
         </div>
       ))}
       <p>Total: {getTotalPrice()}$</p>
-      <div className="mb-2">
+      <div className="mb-2 cart_buttons">
         <button onClick={setDiscountApplied} className="me-2">
           Apply 20% discount
         </button>

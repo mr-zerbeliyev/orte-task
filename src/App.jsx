@@ -4,6 +4,7 @@ import Product from "./components/Product";
 import productsMock from "./data/product.json";
 import Cart from "./components/Cart";
 import { useState } from "react";
+import "./components/Cart/cart.css"
 
 const productList = Object.values(productsMock)[0][0];
 function App() {

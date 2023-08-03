@@ -1,0 +1,35 @@
+.product {
+    border: 1px solid black !important;
+    height: auto;
+    font-size: 18px;
+    font-weight: 500;
+    color: black !important;
+    background-color: rgb(220, 212, 212) !important;
+    
+}
+
+.cartimg {
+    height: 170px;
+    box-shadow: 2px 2px 2px black;
+
+}
+
+.text {
+    line-height: 16px;
+}
+
+.product_button {
+    margin-top: 20px;
+    background-color: rgb(0, 0, 0) !important;
+    border-color: white !important;
+    width: 150px;
+}
+.product_button:hover{
+    background-color: white !important;
+    color: black !important;
+}
+.product_title{
+    text-transform:uppercase !important;
+    padding: 10px 0;
+    font-family: 'Times New Roman', Times, serif;
+}
